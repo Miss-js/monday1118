@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        /* *{
+            margin: 0px;
+            padding:0px;
+        }
+        body{
+            font-family: "微软雅黑";
+            font-size:16px;
+        }
+
+        #left{
+            width: 491px;
+        }
+        #left-top{
+            background-color: rgb(144,81,82);
+            padding:20px 20px;
+
+        }
+        #left-top h2{
+            float:left;
+            font-size:18px;
+            color:white;
+        }
+        #left-top a{
+            float:right;
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .clear{
+            clear:both;
+        }
+        #left ul{
+            list-style-type: none;
+            padding: 10px;
+            font-size: 14.4px;
+
+        }
+        #left li{
+            margin-bottom: 10px;
+        }
+        #left li a{
+
+            text-decoration: none;
+            color:rgb(95, 92, 89)
+        }
+        #left li a:hover{
+
+            text-decoration: none;
+            color:red;
+            }
+        #left li span{
+            float:right;
+        } */
+
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            font-family: "微软雅黑";
+            font-size:16px;
+        }
+        #navbar{
+            background-color: rgba(39,39,39,0.8);
+            padding:15px;
+            color:white;
+            position: absolute;
+            width: 100%;
+        }
+
+        #bigpic{
+            width: 100%;
+        }
+        #wrapper{
+            width:1000px;
+            margin: 0 auto;
+
+        }
+
+        #left{
+            width:491px;
+            float: left;
+
+        }
+        #left-top{
+            background-color: rgb(144,81,82);
+            padding:15px 20px;
+        }
+        #left-top h2{
+            float:left;
+            font-size:18px;
+            color:white;
+        }
+        #left-top a{
+            float:right;
+            color:white;
+            text-decoration:none;
+            font-weight: bold;
+
+        }
+        .clear{
+            clear: both;
+        }
+        #left ul{
+            padding:15px;
+            list-style-type: none;
+            font-size:14.4px;
+            
+        }
+        #left li{
+            margin-bottom: 12px;
+        }
+        #left li a{
+            text-decoration: none;
+            color:gray;
+            
+
+        }
+        #left li a:hover{
+            text-decoration: none;
+            color:red;
+        }
+        #left li span{
+            float:right;
+        }
+
+        #right{
+            width:495px;
+            float: right;
+        }
+        #right #right-top li{
+            list-style-type: none;
+            float: left;
+            background-color: darkgray;
+            width:165px;
+            text-align: center;
+            padding:15px 0px;
+            font-size:18px;
+          
+            color:white;
+        }
+        #right #right-top  li:first-child{
+            background-color: rgb(173,0,0);
+            background-image: url(./news_title_hover.png);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y:bottom; 
+            font-weight: bold;
+        }
+        #news{
+            background-color:#514a4a;
+            font-size:13.2px;
+            padding:15px;
+
+        }
+        #news li{
+            list-style-type: none;
+            margin-bottom: 10px;
+
+        }
+
+        #news li a{
+            color:#eee;
+
+
+        }
+        #news li span{
+            float: right;
+        }
+        #news #more{
+            float:right;
+            color:white;
+            text-decoration: none;
+        }
+        #news #more:hover{
+            color:red;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">导航条</div>
+    <img src="./guicaiqiu.jpg" alt="" id="bigpic">
+    <div id="wrapper">
+    <div id="left">
+        <div id="left-top">
+            <h2>时政要闻</h2>
+            <a href="#">更多></a>
+            <div class="clear"></div>
+        </div><!---end of leftop-->
+        <img src="./szyw.jpg" alt="" width="491">
+        <ul>
+            <li> <a href="#"> 习近平在省部级主要领导干部学习贯彻党的二十届三中...<span>2024/10/30</span></a></li>
+            <li><a href="#"> 习近平在中共中央政治局第十七次集体学习时强调 锚定...<span>2024/10/29</span></a></li>
+            <li><a href="#"> 《习近平关于健康中国论述摘编》出版发行<span>2024/10/28</span></a></li>
+            <li><a href="#"> 习近平给中国海洋大学全体师生回信<span>2024/10/25</span></a></li>
+            <li><a href="#"> 习近平出席金砖国家领导人第十六次会晤并发表重要讲话<span>2024/10/24</span></a></li>
+        </ul>
+       
+
+    </div>
+
+    <div id="right">
+
+        <ul id="right-top">
+            <li>重要新闻</li>
+            <li>校园快讯</li>
+            <li>媒体贵财</li>
+        </ul>
+        <img src="./gcxw1.jpg" width="495">
+        <div id="news">
+                <ul>
+                        <li><a href="">2024年全省高校思想政治理论课教法攻坚研讨会暨说课展示...</a> <span>2024/10/30</span></li>
+                        <li>“对话与争鸣”学术论坛——数据要素赋能治理创新学术研...<span>2024/10/30</span></li>
+                        <li>我校开展第四期教学示范课观摩活动2024/10/30</li>
+                        <li>我校校友会成功举办第一届“校友杯”乒羽网交流赛2024/10/28</li>
+                        <li>我校举办第一期“清风贵财”纪检沙龙活动<span>2024/10/28</span></li>
+                    </ul>
+                    
+        <a href="" id="more"> 了解更多贵财资讯 点击进入新闻</a>
+        <div class="clear"></div>
+                    
+                    
+  
+
+        </div>
+        
+
+    
+    
+    
+
+
+
+    </div>
+    </div>
+</body>
+</html>
